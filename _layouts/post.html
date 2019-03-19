@@ -26,7 +26,9 @@ layout: default
       </div>
 	  
 	  {% if site.comments.gitalk %}
-    <div id="gitalk-container"></div> <script type="text/javascript">
+    <div id="gitalk-container"></div> 
+	<script src="/style/js/md5.min.js"></script>
+	<script type="text/javascript">
 		var gitalk = new Gitalk({
 
 		// gitalk的主要参数
@@ -35,7 +37,7 @@ layout: default
 			repo: '{{site.gitalk.gitalk_repo}}',
 			owner: '{{site.gitalk.gitalk_owner}}',
 			admin: '{{site.gitalk.gitalk_admin}}',
-			id:decodeURI(window.location.pathname),
+			id:md5(window.location.pathname),
 			distractionFreeMode: '{{site.gitalk.distractionFreeMode}}'
 
 		});
