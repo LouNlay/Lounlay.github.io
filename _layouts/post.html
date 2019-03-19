@@ -24,6 +24,24 @@ layout: default
             </article>
         </div>
       </div>
+	  
+	  {% if site.comments.gitalk %}
+    <div id="gitalk-container"></div> <script type="text/javascript">
+		var gitalk = new Gitalk({
+
+		// gitalk的主要参数
+			clientID: '{{site.gitalk.gitalk_clientID}}',
+			clientSecret: '{{site.gitalk.gitalk_Secret}}',
+			repo: '{{site.gitalk.gitalk_repo}}',
+			owner: '{{site.gitalk.gitalk_owner}}',
+			admin: '{{site.gitalk.gitalk_admin}}',
+			id:window.location.pathname,
+			distractionFreeMode: '{{site.gitalk.distractionFreeMode}}'
+
+		});
+		gitalk.render('gitalk-container');
+	</script> 
+	{% endif %}
     </div>
   </div>
 </div>
