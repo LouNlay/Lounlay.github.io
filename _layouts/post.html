@@ -35,7 +35,7 @@ layout: default
 			repo: '{{site.gitalk.gitalk_repo}}',
 			owner: '{{site.gitalk.gitalk_owner}}',
 			admin: '{{site.gitalk.gitalk_admin}}',
-			id:window.location.pathname,
+			id:decodeURI(window.location.pathname),
 			distractionFreeMode: '{{site.gitalk.distractionFreeMode}}'
 
 		});
