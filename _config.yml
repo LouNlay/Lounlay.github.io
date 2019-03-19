@@ -29,8 +29,8 @@ comments:
   gitalk_clientID: '674a770a0e49b23f03b6'
   gitalk_Secret: 'f5f940679ef8ad11f25a2de5a02cbc5946e4bc5a'
   gitalk_repo: 'lounlay.github.io'
-  gitalk_owner: 'lounlay'
-  gitalk_admin: 'lounlay'
+  gitalk_owner: 'Lounlay'
+  gitalk_admin: 'Lounlay'
   distractionFreeMode: true
 
 
