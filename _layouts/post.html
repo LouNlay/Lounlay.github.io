@@ -32,13 +32,13 @@ layout: default
 		var gitalk = new Gitalk({
 
 		// gitalk的主要参数
-			clientID: '{{site.gitalk.gitalk_clientID}}',
-			clientSecret: '{{site.gitalk.gitalk_Secret}}',
-			repo: '{{site.gitalk.gitalk_repo}}',
-			owner: '{{site.gitalk.gitalk_owner}}',
-			admin: '{{site.gitalk.gitalk_admin}}',
+			clientID: '{{site.comments.gitalk_clientID}}',
+			clientSecret: '{{site.comments.gitalk_Secret}}',
+			repo: '{{site.comments.gitalk_repo}}',
+			owner: '{{site.comments.gitalk_owner}}',
+			admin: '{{site.comments.gitalk_admin}}',
 			id:md5(window.location.pathname),
-			distractionFreeMode: '{{site.gitalk.distractionFreeMode}}'
+			distractionFreeMode: '{{site.comments.distractionFreeMode}}'
 
 		});
 		gitalk.render('gitalk-container');
