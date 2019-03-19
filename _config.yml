@@ -1,13 +1,13 @@
 # Site settings
 name: Less Or More
 email: aric.eric@outlook.com
-author: Freud Kang
+author: Aric
 url: https://lounlay.github.io
 resume_site: ''
 github: https://github.com/
 baseurl: ""
 description: Actually, less is more!
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+meta_description: 吾尝终日而思矣，不如须臾之所学也。吾尝跂而望矣，不如登高之博见也。登高而招，臂非加长也，而见者远。顺风而呼，声非加疾也，而闻者彰。假舆马者，非利足也，而致千里。假舟楫者，非能水也，而绝江河。君子性非异也，善假于物也。
 motto: It's our wits that make us men.
 banner: 学而不思则罔，思而不学则殆。
 
@@ -25,7 +25,6 @@ markdown: kramdown
 
 # Comments 评论功能
 comments:
-
   gitalk: true
   gitalk_clientID: '674a770a0e49b23f03b6'
   gitalk_Secret: 'f5f940679ef8ad11f25a2de5a02cbc5946e4bc5a'
