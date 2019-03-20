@@ -136,7 +136,7 @@ https://github.com/settings/applications/new
 
 下面是我的代码，可以参考下：
 
->   {% if site.comments.gitalk %} //通过参数控制评论是否开启
+`  {% if site.comments.gitalk %} //通过参数控制评论是否开启`
 
 这段代码是我 copy 的一个博客上的，原文地址：  
 
