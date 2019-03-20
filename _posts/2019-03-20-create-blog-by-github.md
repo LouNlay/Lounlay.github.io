@@ -118,7 +118,8 @@ https://github.com/settings/applications/new
 
 ![](https://lounlay.github.io/images/newApplication.png)  
 
-点击 Register application 按钮后，会自动跳转到详细信息页面。接下来需要使用的是 Client ID 和 Client Secret （其实这不是什么机密信息，在使用中都是以明文传输的）![](https://lounlay.github.io/images/id.png)
+点击 Register application 按钮后，会自动跳转到详细信息页面。接下来需要使用的是 Client ID 和 Client Secret （其实这不是什么机密信息，在使用中都是以明文传输的）
+![](https://lounlay.github.io/images/id.png)
 
 **3.2将注册信息配置进项目中**
 
