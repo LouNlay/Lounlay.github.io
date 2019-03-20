@@ -1,3 +1,14 @@
+---
+layout: post
+title:  如何使用LessOrMore这个Jekyll模版
+date:   2019-3-20 12:51:50 +0800
+categories: 博客搭建
+tag: 教程
+---
+
+* content
+{:toc}
+
 
 昨天搭建了属于自己的博客，在这里将过程记录下来
 
