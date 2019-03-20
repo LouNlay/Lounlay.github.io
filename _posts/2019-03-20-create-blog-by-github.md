@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  如何使用LessOrMore这个Jekyll模版
+title:  使用github搭建自己的博客
 date:   2019-3-20 12:51:50 +0800
 categories: 博客搭建
 tag: 教程
@@ -136,16 +136,12 @@ https://github.com/settings/applications/new
 
 下面是我的代码，可以参考下：
 
-```
-{% if site.comments.gitalk %} //通过参数控制评论是否开启
-{% endif %}
-```
+>   {% if site.comments.gitalk %} //通过参数控制评论是否开启
 
 这段代码是我 copy 的一个博客上的，原文地址：  
 
 
 [https://blog.csdn.net/Madridcrls7/article/details/80871596](https://blog.csdn.net/Madridcrls7/article/details/80871596)
-
 
   
 
