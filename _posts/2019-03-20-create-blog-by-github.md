@@ -147,6 +147,7 @@ tag: 博客搭建
 
 ```
 {% if site.comments.gitalk %} //通过参数控制评论是否开启
+{% endif %}
 ```
 
 这段代码是我 copy 的一个博客上的，原文地址：  
