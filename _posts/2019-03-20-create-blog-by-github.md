@@ -131,16 +131,7 @@ https://github.com/settings/applications/new
 ```
 
 上面的是 gitalk 的 css 样式，下面的是 gitalk 的 js 文件，下面的代码需要这俩文件的支持，不然无法正常运行。  
----
-layout: post
-title:  通过github搭建属于自己的博客
-date:   2019-3-20 12:36:54 +0800
-categories: 
-tag: 博客搭建
----
 
-* content
-{:toc}
   
 
 下面是我的代码，可以参考下：
